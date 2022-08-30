@@ -105,6 +105,7 @@ spec:
               mountPath: /var/log
             - name: varstate
               mountPath: /var/state
+              readOnly: true
           resources:
             requests:
               memory: 100Mi
